@@ -1,0 +1,39 @@
+body
+{
+	background-color: #ebebeb;
+}
+
+hide
+{
+	display: none;
+}
+
+#logo1
+{
+	width: 10em;
+}
+
+.logo2
+{
+	width: 8em;
+	clear: both;
+	float: left;
+}
+
+ul li
+{
+	display: inline;
+	margin-right: 1em;
+}
+
+.centeredText
+{
+	text-align: center;
+}
+
+#footerNav
+{
+	display: inline;
+	clear: right;
+	float: right;
+}
