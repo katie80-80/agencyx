@@ -1,0 +1,204 @@
+body
+{
+	background-color: #ebebeb;
+	font-family: "futura-pt",sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+hide
+{
+	display: none;
+}
+
+.logo1
+{
+	width: 10em;
+}
+
+#logo2
+{
+	width: 8em;
+	clear: both;
+	float: left;
+}
+
+ul li
+{
+	display: inline;
+	margin-right: 1em;
+	font-weight: 400;
+}
+
+a
+{
+	color: #292929;
+	padding: 3px;
+}
+
+a:hover
+{
+	color: #292929;
+	background-color: #eeba05;
+}
+
+.centeredText
+{
+	text-align: center;
+}
+
+.mainImg
+{
+	height: 100%;
+}
+
+.caption1
+{
+	font-family: "futura-pt",sans-serif;
+	font-weight: 300;
+	font-size: 3em;
+	clear: left;
+	float: left;
+	margin-top: 1em;
+	margin-left: .5em;
+}
+
+.caption2
+{
+	font-family: "futura-pt",sans-serif;
+	font-weight: 800;
+	font-size: 3em;
+	clear: left;
+	color: #eeba05;
+	float: left;
+	margin-left: .5em;
+}
+
+.titles
+{
+	font-family: "futura-pt",sans-serif;
+	font-weight: 500;
+	margin-top: 2em;
+	color: #eeba05;
+}
+
+
+.galleryPics
+{
+	padding-bottom: 2em;
+}
+
+.darkBg
+{
+	background-color: #494244;
+}
+
+.teamPics
+{
+	max-width: 20em;
+}
+
+#homeHeader
+{
+	background-image: url(../img/ropeLg.png);
+	background-repeat: no-repeat;
+	height: 30em;
+}
+
+#aboutHeader
+{
+	background-image: url(../img/weightsLg.png);
+	background-repeat: no-repeat;
+	height: 30em;
+}
+
+#contactHeader
+{
+	background-image: url(../img/backLg.png);
+	background-repeat: no-repeat;
+	height: 30em;
+}
+
+form
+{
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+
+input
+{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1em; 
+	outline: none;
+	height: 6em;
+}
+
+
+.formButton
+{
+	max-width: 100%;
+	height: 40px;
+	margin-top:1em;
+	background-color: rgba(209, 199, 191, 0.7);
+	outline:none;
+	font-size: 1.5em;
+}
+
+
+#footerNav
+{
+	display: inline;
+	clear: right;
+	float: right;
+}
+
+@media screen and (min-width: 40em) { /*TABLET BEGINS HERE*/
+
+	
+	.caption1
+	{
+		margin-top: 2em;
+		font-size: 4em;
+	}
+	
+	.caption2
+	{
+		font-size: 4em;
+	}
+	
+	#homeHeader
+{
+	height: 40em;
+}
+
+	#aboutHeader
+{
+	height: 40em;
+}
+
+	#contactHeader
+{
+	height: 40em;
+}
+	
+}
+
+@media screen and (min-width: 64em) { /*TABLET BEGINS HERE*/
+
+		
+	.caption1
+	{
+		margin-top: 1em;
+		font-size: 6em;
+	}
+	
+	.caption2
+	{
+		font-size: 6em;
+	}
+	
+	
+}
